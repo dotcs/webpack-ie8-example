@@ -44,16 +44,28 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var myvar = __webpack_require__(1).test;
+	'use strict';
 
-	console.log('test ' + myvar);
+	var _imported = __webpack_require__(1);
 
+	var _imported2 = _interopRequireDefault(_imported);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	console.log('test ' + _imported2.default);
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	exports.test = '123';
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	var test = 123;
+
+	exports.default = test;
 
 /***/ }
 /******/ ]);

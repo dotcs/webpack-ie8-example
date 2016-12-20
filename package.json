@@ -5,12 +5,15 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack ./src/main.js ./bundle.js"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Fabian Mueller",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
     "webpack": "1.13"
   }
 }
