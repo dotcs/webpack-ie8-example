@@ -5,11 +5,11 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack ./src/main.js ./bundle.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Fabian Mueller",
+  "license": "MIT",
   "dependencies": {
     "webpack": "1.13"
   }
